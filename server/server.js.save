@@ -1,0 +1,19 @@
+app.use(express.static(path.join(_dirname, '../client/build')));
+
+app.get('*', (req, res) => {
+	res.sendFile(path.join(
+app.get('*', (req, res) => {
+        res.sendFile(path.join(
+const express = require('express');
+const app = express();
+cost path = require('path');
+
+app.use(express.static(path.join(_dirname, '../client/build')));
+
+app.get('*', (req, res) => {
+        res.sendFile(path.join(
+app.get('*', (req, res) => {
+        res.sendFile(path.join(
+
+
+
